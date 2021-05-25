@@ -23,6 +23,7 @@ testcafe {NAME_OF_THE_BROWSER} ./fixtures
 
 
 -If FW not executing correctly, try with
+
 npx testcafe firefox ./fixtures --hostname localhost
 
 
