@@ -1,0 +1,25 @@
+{
+  "name": "automationfwcafe",
+  "version": "1.0.0",
+  "description": "Automation Certification Framework",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "testcafe": "^1.14.2",
+    "testcafe-reporter-html": "^1.4.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test-all-firefox": "testcafe firefox ./tests --reporter html:output/report.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FiruLAD/AutomationChallenge.git"
+  },
+  "author": "Ricardo Castanon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FiruLAD/TestCafeQA/issues"
+  },
+  "homepage": "https://github.com/FiruLAD/TestCafeQA#readme"
+}
