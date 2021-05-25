@@ -3,8 +3,11 @@
 -Clone the repository
 
 -Install the dependencies:
+
 npm install testcafe
+
 npm install dotenv
+
 npm install testcafe-reporter-html
 
 -Execute FW
