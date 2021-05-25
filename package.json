@@ -10,11 +10,11 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test-all-firefox": "testcafe firefox ./tests --reporter html:output/report.html"
+    "test-all-firefox": "testcafe firefox ./fixtures --reporter html:output/report.html"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/FiruLAD/AutomationChallenge.git"
+    "url": "git+https://github.com/FiruLAD/TestCafeQA.git"
   },
   "author": "Ricardo Castanon",
   "license": "ISC",
